@@ -1,5 +1,7 @@
 class Solution:
     def containsDuplicate(self, nums):
-      if len(nums) == len(set(nums)):
-        return False
-      return True
+        res = [*set(nums)]
+        if len(nums) == len(res):
+            return False
+        return True
+    
