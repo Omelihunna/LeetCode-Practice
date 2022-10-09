@@ -8,6 +8,5 @@ class Solution:
             x = str(sum(n_list_squared))
             if x == "145":
                 return False
-        if x == "1":
-            return True  
+        return True  
         
