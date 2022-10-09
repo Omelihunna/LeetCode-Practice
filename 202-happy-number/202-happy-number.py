@@ -1,6 +1,5 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
-        sum_of_squares = 0
         x = str(n)
         if x == "1":
             return True
