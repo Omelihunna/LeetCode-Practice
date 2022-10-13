@@ -7,4 +7,3 @@ class Solution:
         for i in range(a):
             nums.remove(0)
             nums.append(0)
-        return nums
