@@ -3,8 +3,9 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        for i in nums:
-            if i == 0:
-                nums.remove(i)
-                nums.append(i)
+        a = nums.count(0)
+        for i in range(a):
+            nums.remove(0)
+        for i in range(a):
+            nums.append(0)
         return nums
