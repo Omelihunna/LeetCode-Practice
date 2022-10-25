@@ -13,22 +13,4 @@ class Solution:
             for i in home:
                 mins.append(nums[i])
             return max(mins)
-
-            
-            
-            
-        # nums_abs = [abs(i) for i in nums]
-        # b = []
-        # if nums_abs.count(min(nums_abs)) > 1:
-        #     for i in range(len(nums_abs)):
-        #         if nums_abs[i] == min(nums_abs):
-        #             if nums[i] == nums_abs[i]:
-        #                 return nums[i]
-        #             else:
-        #                 if nums[i] > nums_abs[i]:
-        #                     return nums[i]
-        #                 else:
-        #                     return nums_abs[i]
-        # else:
-        #     return(min(nums_abs))
             
