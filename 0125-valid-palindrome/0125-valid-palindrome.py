@@ -1,5 +1,9 @@
-class Solution:
-    def isPalindrome(self, s: str) -> bool:
+class Solution(object):
+    def isPalindrome(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
         test =  [i.lower() for i in s if i.isalnum() is True]
         print(test)
         palindrome = "".join(test)
